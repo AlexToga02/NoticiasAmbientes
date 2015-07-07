@@ -1,0 +1,149 @@
+
+@font-face {
+  font-family: 'Classica';
+  src: url('../fonts/Classica.ttf');
+}
+
+
+body{
+    background-color: #BCB8B8;
+    background-image: url('../img/footer_lodyas.png');
+    font-family: Classica;
+}
+
+header{
+    width: 860px;
+    height: 100px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    border-bottom: 1px dotted #BCB8B8;
+    padding: 20px;
+}
+nav{
+    width: 900px;
+    height: 35px;
+    background-color: #2175bc;
+    margin: 0 auto;  
+}
+footer{
+    width: 900px;
+    height: 50px;
+    background-color: #595858;
+    margin: 0 auto;
+}
+
+#contenido{
+    border:1px solid black;
+    width: 900px;
+    height: 400px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+#login{
+    background-color: #969191; /*#494A4C;*/
+    height: 300px;
+    width: 400px;
+    margin: 60px auto;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.5em;
+    -webkit-box-shadow: 1px 10px 23px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 10px 23px 0px rgba(0,0,0,1);
+    box-shadow: 1px 10px 23px 0px rgba(0,0,0,1);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;    
+}
+#frm1{
+    padding-top: 50px;
+}
+input{
+    height: 2em;
+    text-align: center;
+    font-size: .8em;   
+}
+button{
+    font-size: .8em;
+}
+label{
+    font-size: .8em;
+}  
+.titulo1{
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 10px;
+/*    background-color: #fff;
+     filter:alpha(opacity=30);
+    -moz-opacity:.30;
+    opacity:.30;  */  
+}
+
+#button  {
+    margin: 0;
+    padding: 0;
+}
+
+#button li {
+    display: inline;
+}
+
+#button li a {
+    font-family: Arial;
+    font-size:11px;
+    text-decoration: none;
+    float:left;
+    padding: 10px;
+    background-color: #2175bc;
+    color: #fff;
+}
+
+#button li a:hover {
+    background-color: #2586d7;
+    margin-top:-2px;
+    padding-bottom:12px;
+}
+
+#wrap{
+    width: 100%; 
+    margin: 0 auto;
+
+
+}
+
+#error{
+    color: red;
+    font-size: 15px;
+}
+
+#alta{
+    color: blue;
+    padding: 5px 10px;
+}
+
+
+#imagen{
+    border-style: solid;
+    border-color: black;
+    width: 400px;
+    height: 80px;
+    background-color: #2586d7;
+}
+
+table{
+
+    border-collapse: collapse;
+    font-size: .7em;
+
+}
+
+th{
+    border: 1px solid #000;
+    background-color: #2586d7;
+}
+
+td{
+    border: 1px solid #000;
+}

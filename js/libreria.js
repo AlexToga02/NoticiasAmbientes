@@ -1,0 +1,4 @@
+function limpia(){
+	$('#contenido').html('');
+
+}
